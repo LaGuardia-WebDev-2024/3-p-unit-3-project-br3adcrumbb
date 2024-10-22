@@ -1,9 +1,9 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[  yes] Two External Links
+[  yes] Table
+[ yes ] Three CSS Rules
+[  yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
@@ -14,47 +14,106 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      h1 {
+        color: lightblue;
+      }
+      h2 {
+        color: blue;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+        color: lightblue;
+      }
+      #camera {
+        background-image: url("https://www.glazerscamera.com/cdn/shop/files/3550_Hero_700x700.png?v=1708317060");
+      }
+      body{
+        background-image:url("https://media.tenor.com/dutdoOw7PjsAAAAj/happy-cat.gif")
+          
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>My wishlist</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <ol>
+      <li><a href="?">Items</a></li>
+    </ol>
 
-  <h2>Contents:</h2>
+    <h2 id="?">Items</h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <ul>
+      <li>Cameras</li>
+      <li>Art supplies</li>
+      <li>New guitar</li>
+    </ul>
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
+    <h2>Why I want these items</h2>
+    <p>
+      <strong>Why:</strong> I want to learn new things to do in my spare time so
+      these items would help me do that. 
+      <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEHHiR3QedcFTMhpISLkOoIiy0Hk7fd5dI_A&s"
+      width="100" >
+      <img 
+           src="https://waltgracevintage.com/cdn/shop/files/IMG_6278.jpg?v=1718129447"
+           width="100">
+      <img
+           src="https://i.etsystatic.com/37216281/r/il/d74bcc/5668850779/il_fullxfull.5668850779_1wpb.jpg"
+           width="100">
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Cost</th>
+          <th>links</th>
+        </tr>
+      </thead>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
+        <td>Fujifilm X100VI</td>
+        <td>$2,079</td>
+        <td>
+          <a
+            href="https://www.willoughbys.com/FUJIFILM_X100VI_Digital_Camera_Silver_465565.html?refid=Google&gad_source=1&gclid=EAIaIQobChMI5fza6O6fiQMVgElHAR22_xgxEAQYAiABEgIOjfD_BwE"
+            >here</a
+          >
+        </td>
       </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+      <tr>
+        <td>Epiphone 1957 SJ-200 Acoustic-electric Guitar - Antique Natural</td>
+        <td>$1,499</td>
+        <td>
+          <a
+            href="https://www.sweetwater.com/store/detail/SJ200IGC57AN--epiphone-1957-sj-200-acoustic-electric-guitar-antique-natural"
+            >here</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Holbein Artists Gouache Set of 12, 5ml Colors</td>
+        <td>$75</td>
+        <td>
+          <a
+            href="https://www.jerrysartarama.com/holbein-designer-gouache-5ml-set-12-assorted-colors-v37424?gad_source=1&gclid=EAIaIQobChMI-c2s2rCiiQMVO19HAR2aEC0NEAQYAiABEgLqZfD_BwE"
+            >here</a
+          >
+        </td>
+      </tr>
+      <tbody></tbody>
+    </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <em>Source:Joselyn <a href="?"></a></em>
+    </p>
+  </body>
 </html>
